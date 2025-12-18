@@ -1,0 +1,519 @@
+2025-12-12 20:15:25,404 - __main__ - INFO - FaceEmotionRecognizer initialized
+2025-12-12 20:15:25,445 - __main__ - ERROR - Error loading emotion model: [Errno 2] Unable to synchronously open file (unable to open file: name = 'emotion_model.h5', errno = 2, error message = 'No such file or directory', flags = 0, o_flags = 0)
+2025-12-12 20:15:25,446 - __main__ - INFO - Building emotion recognition CNN model...
+2025-12-12 20:15:48,785 - __main__ - INFO - Starting webcam emotion recognition...
+2025-12-12 20:16:38,166 - __main__ - INFO - PAUSED
+2025-12-12 20:16:49,462 - __main__ - INFO - Quitting...
+2025-12-12 20:16:49,862 - __main__ - INFO -   Total detections: 287
+2025-12-12 20:18:17,414 - face_emotion_system - INFO - FaceEmotionRecognizer initialized
+2025-12-12 20:18:17,415 - __main__ - INFO - EmotionAnalytics initialized
+2025-12-12 20:18:17,460 - face_emotion_system - ERROR - Error loading emotion model: [Errno 2] Unable to synchronously open file (unable to open file: name = 'emotion_model.h5', errno = 2, error message = 'No such file or directory', flags = 0, o_flags = 0)
+2025-12-12 20:18:17,461 - face_emotion_system - INFO - Building emotion recognition CNN model...
+2025-12-12 20:18:17,742 - __main__ - INFO - Starting webcam analytics...
+2025-12-12 20:18:23,843 - __main__ - INFO - Statistics reset
+2025-12-12 20:18:23,843 - __main__ - INFO - Analytics session started
+2025-12-12 20:59:47,975 - __main__ - INFO - FaceEmotionRecognizer initialized
+2025-12-12 20:59:48,118 - __main__ - ERROR - Error loading emotion model: [Errno 2] Unable to synchronously open file (unable to open file: name = 'emotion_model.h5', errno = 2, error message = 'No such file or directory', flags = 0, o_flags = 0)
+2025-12-12 20:59:48,122 - __main__ - INFO - Building emotion recognition CNN model...
+2025-12-12 20:59:52,944 - __main__ - INFO - Starting webcam emotion recognition...
+2025-12-12 21:00:41,381 - __main__ - INFO - Quitting...
+2025-12-12 21:00:41,798 - __main__ - INFO -   Total detections: 259
+2025-12-12 21:01:06,433 - __main__ - INFO - Processing image: D:\SRH\Artificial_Intelligence\AI_Face_Detection\results\images\screenshot_0000.jpg
+2025-12-12 21:01:06,593 - __main__ - INFO - Detected 1 face(s)
+2025-12-12 21:01:06,593 - __main__ - INFO -   Face 1: Happy (14.85%)
+2025-12-12 21:02:04,606 - __main__ - INFO - Starting model training...
+2025-12-12 21:02:04,607 - __main__ - INFO -   Training data: D:\SRH\Artificial_Intelligence\AI_Face_Detection\data\test\disgust
+2025-12-12 21:02:04,607 - __main__ - INFO -   Validation data: D:\SRH\Artificial_Intelligence\AI_Face_Detection\data\val\disgust
+2025-12-12 21:02:04,607 - __main__ - INFO -   Epochs: 60
+2025-12-12 21:02:04,607 - __main__ - INFO -   Batch size: 64
+2025-12-12 21:02:04,709 - __main__ - INFO -   Training samples: 0
+2025-12-12 21:02:04,710 - __main__ - INFO -   Validation samples: 0
+2025-12-12 21:02:04,710 - __main__ - INFO - Building emotion recognition CNN model...
+2025-12-12 21:02:04,907 - __main__ - INFO - Training started...
+2025-12-12 21:02:04,915 - __main__ - ERROR - Unexpected error: The PyDataset has length 0
+Traceback (most recent call last):
+  File "D:\SRH\Artificial_Intelligence\AI_Face_Detection\notebook\face_emotion_system.py", line 933, in <module>
+    main()
+  File "D:\SRH\Artificial_Intelligence\AI_Face_Detection\notebook\face_emotion_system.py", line 921, in main
+    recognizer.train_emotion_model(train_path, val_path, epochs=epochs)
+  File "D:\SRH\Artificial_Intelligence\AI_Face_Detection\notebook\face_emotion_system.py", line 835, in train_emotion_model
+    history = self.emotion_model.fit(
+  File "C:\Users\GarimaAgrawal\AppData\Local\Programs\Python\Python310\lib\site-packages\keras\src\utils\traceback_utils.py", line 122, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "C:\Users\GarimaAgrawal\AppData\Local\Programs\Python\Python310\lib\site-packages\keras\src\trainers\data_adapters\py_dataset_adapter.py", line 311, in get_tf_dataset
+    raise ValueError("The PyDataset has length 0")
+ValueError: The PyDataset has length 0
+2025-12-12 21:02:55,816 - face_emotion_system - INFO - FaceEmotionRecognizer initialized
+2025-12-12 21:02:55,817 - __main__ - INFO - EmotionAnalytics initialized
+2025-12-12 21:02:55,864 - face_emotion_system - ERROR - Error loading emotion model: [Errno 2] Unable to synchronously open file (unable to open file: name = 'emotion_model.h5', errno = 2, error message = 'No such file or directory', flags = 0, o_flags = 0)
+2025-12-12 21:02:55,866 - face_emotion_system - INFO - Building emotion recognition CNN model...
+2025-12-12 21:02:56,129 - __main__ - INFO - Starting webcam analytics...
+2025-12-12 21:03:04,137 - __main__ - INFO - Statistics reset
+2025-12-12 21:03:04,138 - __main__ - INFO - Analytics session started
+2025-12-12 21:03:19,671 - __main__ - INFO - Statistics reset
+2025-12-12 21:10:37,254 - face_emotion_system - INFO - FaceEmotionRecognizer initialized
+2025-12-12 21:10:37,254 - __main__ - INFO - EmotionAnalytics initialized
+2025-12-12 21:10:37,310 - face_emotion_system - ERROR - Error loading emotion model: [Errno 2] Unable to synchronously open file (unable to open file: name = 'emotion_model.h5', errno = 2, error message = 'No such file or directory', flags = 0, o_flags = 0)
+2025-12-12 21:10:37,311 - face_emotion_system - INFO - Building emotion recognition CNN model...
+2025-12-12 21:10:37,721 - __main__ - INFO - Starting webcam analytics...
+2025-12-12 21:10:45,398 - __main__ - INFO - Statistics reset
+2025-12-12 21:10:45,399 - __main__ - INFO - Analytics session started
+2025-12-12 21:10:49,970 - __main__ - ERROR - Unexpected error: 'EmotionAnalytics' object has no attribute 'draw_analytics_overlay'
+Traceback (most recent call last):
+  File "D:\SRH\Artificial_Intelligence\AI_Face_Detection\notebook\realtime_emotion_analytics.py", line 953, in <module>
+    main()
+  File "D:\SRH\Artificial_Intelligence\AI_Face_Detection\notebook\realtime_emotion_analytics.py", line 945, in main
+    analytics.run_webcam_analytics()
+  File "D:\SRH\Artificial_Intelligence\AI_Face_Detection\notebook\realtime_emotion_analytics.py", line 727, in run_webcam_analytics
+    output, faces, emotions = self.process_frame_with_analytics(frame)
+  File "D:\SRH\Artificial_Intelligence\AI_Face_Detection\notebook\realtime_emotion_analytics.py", line 677, in process_frame_with_analytics
+    output = self.draw_analytics_overlay(output)
+AttributeError: 'EmotionAnalytics' object has no attribute 'draw_analytics_overlay'. Did you mean: 'draw_adaptive_analytics_overlay'?
+2025-12-12 21:12:01,495 - face_emotion_system - INFO - FaceEmotionRecognizer initialized
+2025-12-12 21:12:01,495 - __main__ - INFO - EmotionAnalytics initialized
+2025-12-12 21:12:01,545 - face_emotion_system - ERROR - Error loading emotion model: [Errno 2] Unable to synchronously open file (unable to open file: name = 'emotion_model.h5', errno = 2, error message = 'No such file or directory', flags = 0, o_flags = 0)
+2025-12-12 21:12:01,551 - face_emotion_system - INFO - Building emotion recognition CNN model...
+2025-12-12 21:12:01,826 - __main__ - INFO - Starting webcam analytics...
+2025-12-12 21:12:09,695 - __main__ - INFO - Statistics reset
+2025-12-12 21:12:09,695 - __main__ - INFO - Analytics session started
+2025-12-12 21:13:31,241 - face_emotion_system - INFO - FaceEmotionRecognizer initialized
+2025-12-12 21:13:31,241 - __main__ - INFO - EmotionAnalytics initialized
+2025-12-12 21:13:31,285 - face_emotion_system - ERROR - Error loading emotion model: [Errno 2] Unable to synchronously open file (unable to open file: name = 'emotion_model.h5', errno = 2, error message = 'No such file or directory', flags = 0, o_flags = 0)
+2025-12-12 21:13:31,286 - face_emotion_system - INFO - Building emotion recognition CNN model...
+2025-12-12 21:13:31,541 - __main__ - INFO - Starting webcam analytics...
+2025-12-12 21:13:39,489 - __main__ - INFO - Statistics reset
+2025-12-12 21:13:39,490 - __main__ - INFO - Analytics session started
+2025-12-12 21:15:29,546 - face_emotion_system - INFO - FaceEmotionRecognizer initialized
+2025-12-12 21:15:29,547 - __main__ - INFO - EmotionAnalytics initialized
+2025-12-12 21:15:29,604 - face_emotion_system - ERROR - Error loading emotion model: [Errno 2] Unable to synchronously open file (unable to open file: name = 'emotion_model.h5', errno = 2, error message = 'No such file or directory', flags = 0, o_flags = 0)
+2025-12-12 21:15:29,606 - face_emotion_system - INFO - Building emotion recognition CNN model...
+2025-12-12 21:15:29,874 - __main__ - INFO - Starting webcam analytics...
+2025-12-12 21:15:37,748 - __main__ - INFO - Statistics reset
+2025-12-12 21:15:37,748 - __main__ - INFO - Analytics session started
+2025-12-12 21:30:18,735 - face_emotion_system - INFO - FaceEmotionRecognizer initialized
+2025-12-12 21:30:18,736 - __main__ - INFO - EmotionAnalytics initialized
+2025-12-12 21:30:18,779 - face_emotion_system - ERROR - Error loading emotion model: [Errno 2] Unable to synchronously open file (unable to open file: name = 'emotion_model.h5', errno = 2, error message = 'No such file or directory', flags = 0, o_flags = 0)
+2025-12-12 21:30:18,779 - face_emotion_system - INFO - Building emotion recognition CNN model...
+2025-12-12 21:30:19,038 - __main__ - INFO - Starting webcam analytics...
+2025-12-12 21:30:27,013 - __main__ - INFO - Statistics reset
+2025-12-12 21:30:27,013 - __main__ - INFO - Analytics session started
+2025-12-12 21:43:56,505 - face_emotion_system - INFO - FaceEmotionRecognizer initialized
+2025-12-12 21:43:56,505 - __main__ - INFO - EmotionAnalytics initialized
+2025-12-12 21:43:56,560 - face_emotion_system - ERROR - Error loading emotion model: [Errno 2] Unable to synchronously open file (unable to open file: name = 'emotion_model.h5', errno = 2, error message = 'No such file or directory', flags = 0, o_flags = 0)
+2025-12-12 21:43:56,560 - face_emotion_system - INFO - Building emotion recognition CNN model...
+2025-12-12 21:43:56,943 - __main__ - INFO - Starting webcam analytics...
+2025-12-12 21:44:05,060 - __main__ - INFO - Statistics reset
+2025-12-12 21:44:05,060 - __main__ - INFO - Analytics session started
+2025-12-12 21:50:52,203 - face_emotion_system - INFO - FaceEmotionRecognizer initialized
+2025-12-12 21:50:52,204 - __main__ - INFO - EmotionAnalytics initialized
+2025-12-12 21:50:52,256 - face_emotion_system - ERROR - Error loading emotion model: [Errno 2] Unable to synchronously open file (unable to open file: name = 'emotion_model.h5', errno = 2, error message = 'No such file or directory', flags = 0, o_flags = 0)
+2025-12-12 21:50:52,263 - face_emotion_system - INFO - Building emotion recognition CNN model...
+2025-12-12 21:50:52,531 - __main__ - INFO - Starting webcam analytics...
+2025-12-12 21:51:00,478 - __main__ - INFO - Statistics reset
+2025-12-12 21:51:00,479 - __main__ - INFO - Analytics session started
+2025-12-12 21:52:13,202 - face_emotion_system - INFO - FaceEmotionRecognizer initialized
+2025-12-12 21:52:13,203 - __main__ - INFO - EmotionAnalytics initialized
+2025-12-12 21:52:13,259 - face_emotion_system - ERROR - Error loading emotion model: [Errno 2] Unable to synchronously open file (unable to open file: name = 'emotion_model.h5', errno = 2, error message = 'No such file or directory', flags = 0, o_flags = 0)
+2025-12-12 21:52:13,264 - face_emotion_system - INFO - Building emotion recognition CNN model...
+2025-12-12 21:52:13,520 - __main__ - INFO - Starting webcam analytics...
+2025-12-12 21:52:21,409 - __main__ - INFO - Statistics reset
+2025-12-12 21:52:21,410 - __main__ - INFO - Analytics session started
+2025-12-12 21:57:37,121 - face_emotion_system - INFO - FaceEmotionRecognizer initialized
+2025-12-12 21:57:37,122 - __main__ - INFO - EmotionAnalytics initialized
+2025-12-12 21:57:37,199 - face_emotion_system - ERROR - Error loading emotion model: [Errno 2] Unable to synchronously open file (unable to open file: name = 'emotion_model.h5', errno = 2, error message = 'No such file or directory', flags = 0, o_flags = 0)
+2025-12-12 21:57:37,201 - face_emotion_system - INFO - Building emotion recognition CNN model...
+2025-12-12 21:57:37,476 - __main__ - INFO - Starting webcam analytics...
+2025-12-12 21:57:45,427 - __main__ - INFO - Statistics reset
+2025-12-12 21:57:45,427 - __main__ - INFO - Analytics session started
+2025-12-12 21:57:48,491 - __main__ - ERROR - Unexpected error: 'EmotionAnalytics' object has no attribute 'draw_analytics_overlay'
+Traceback (most recent call last):
+  File "D:\SRH\Artificial_Intelligence\AI_Face_Detection\notebook\realtime_emotion_analytics.py", line 847, in <module>
+    main()
+  File "D:\SRH\Artificial_Intelligence\AI_Face_Detection\notebook\realtime_emotion_analytics.py", line 839, in main
+    analytics.run_webcam_analytics()
+  File "D:\SRH\Artificial_Intelligence\AI_Face_Detection\notebook\realtime_emotion_analytics.py", line 602, in run_webcam_analytics
+    output, faces, emotions = self.process_frame_with_analytics(frame)
+  File "D:\SRH\Artificial_Intelligence\AI_Face_Detection\notebook\realtime_emotion_analytics.py", line 552, in process_frame_with_analytics
+    output = self.draw_analytics_overlay(output)
+AttributeError: 'EmotionAnalytics' object has no attribute 'draw_analytics_overlay'
+2025-12-12 22:00:55,876 - face_emotion_system - INFO - FaceEmotionRecognizer initialized
+2025-12-12 22:00:55,877 - __main__ - INFO - EmotionAnalytics initialized
+2025-12-12 22:00:55,936 - face_emotion_system - ERROR - Error loading emotion model: [Errno 2] Unable to synchronously open file (unable to open file: name = 'emotion_model.h5', errno = 2, error message = 'No such file or directory', flags = 0, o_flags = 0)
+2025-12-12 22:00:55,938 - face_emotion_system - INFO - Building emotion recognition CNN model...
+2025-12-12 22:00:56,203 - __main__ - INFO - Starting webcam analytics...
+2025-12-12 22:01:04,079 - __main__ - INFO - Statistics reset
+2025-12-12 22:01:04,080 - __main__ - INFO - Analytics session started
+2025-12-12 22:01:35,960 - __main__ - INFO - Statistics reset
+2025-12-12 22:01:39,754 - __main__ - INFO - Statistics reset
+2025-12-12 22:01:39,957 - __main__ - INFO - Statistics reset
+2025-12-12 22:01:40,130 - __main__ - INFO - Statistics reset
+2025-12-12 22:01:40,287 - __main__ - INFO - Statistics reset
+2025-12-12 22:01:48,304 - __main__ - INFO - Interrupted by user
+2025-12-12 22:02:00,559 - face_emotion_system - INFO - FaceEmotionRecognizer initialized
+2025-12-12 22:02:00,560 - __main__ - INFO - EmotionAnalytics initialized
+2025-12-12 22:02:00,616 - face_emotion_system - ERROR - Error loading emotion model: [Errno 2] Unable to synchronously open file (unable to open file: name = 'emotion_model.h5', errno = 2, error message = 'No such file or directory', flags = 0, o_flags = 0)
+2025-12-12 22:02:00,622 - face_emotion_system - INFO - Building emotion recognition CNN model...
+2025-12-12 22:02:00,880 - __main__ - INFO - Starting webcam analytics...
+2025-12-12 22:02:08,645 - __main__ - INFO - Statistics reset
+2025-12-12 22:02:08,646 - __main__ - INFO - Analytics session started
+2025-12-12 22:04:33,221 - face_emotion_system - INFO - FaceEmotionRecognizer initialized
+2025-12-12 22:04:33,222 - __main__ - INFO - EmotionAnalytics initialized
+2025-12-12 22:04:33,277 - face_emotion_system - ERROR - Error loading emotion model: [Errno 2] Unable to synchronously open file (unable to open file: name = 'emotion_model.h5', errno = 2, error message = 'No such file or directory', flags = 0, o_flags = 0)
+2025-12-12 22:04:33,281 - face_emotion_system - INFO - Building emotion recognition CNN model...
+2025-12-12 22:04:33,547 - __main__ - INFO - Starting webcam analytics...
+2025-12-12 22:04:41,492 - __main__ - INFO - Statistics reset
+2025-12-12 22:04:41,493 - __main__ - INFO - Analytics session started
+2025-12-13 08:10:07,093 - __main__ - INFO - FaceEmotionRecognizer initialized
+2025-12-13 08:10:07,181 - __main__ - ERROR - Error loading emotion model: [Errno 2] Unable to synchronously open file (unable to open file: name = 'emotion_model.h5', errno = 2, error message = 'No such file or directory', flags = 0, o_flags = 0)
+2025-12-13 08:10:07,182 - __main__ - INFO - Building emotion recognition CNN model...
+2025-12-13 08:10:40,786 - __main__ - INFO - Starting webcam emotion recognition...
+2025-12-13 08:11:04,960 - __main__ - INFO - PAUSED
+2025-12-13 08:11:06,258 - __main__ - INFO - RESUMED
+2025-12-13 08:11:22,377 - __main__ - INFO - Quitting...
+2025-12-13 08:11:22,406 - __main__ - INFO -   Total detections: 0
+2025-12-13 08:11:50,097 - __main__ - INFO - Processing image: D:\SRH\Artificial_Intelligence\AI_Face_Detection\results\images\screenshot_0000.jpg
+2025-12-13 08:11:50,121 - __main__ - INFO - Detected 0 face(s)
+2025-12-13 08:12:31,474 - __main__ - INFO - Processing video: D:\SRH\Artificial_Intelligence\AI_Face_Detection\results\avi\recording_20251213_081114.avi
+2025-12-13 08:12:31,509 - __main__ - INFO - Video: 640x480 @ 20FPS, 170 frames
+2025-12-13 08:12:33,828 - __main__ - INFO - Progress: 58.8%
+2025-12-13 08:12:35,508 - __main__ - INFO -   Processed 170/170 frames
+2025-12-13 08:12:35,509 - __main__ - INFO -   Detected 0 faces
+2025-12-13 08:12:35,509 - __main__ - INFO -   Processing time: 3.96s
+2025-12-13 08:12:47,810 - __main__ - INFO - Application terminated by user
+2025-12-13 08:22:56,145 - face_emotion_system - INFO - FaceEmotionRecognizer initialized
+2025-12-13 08:22:56,147 - __main__ - INFO - EmotionAnalytics initialized
+2025-12-13 08:22:56,240 - face_emotion_system - ERROR - Error loading emotion model: [Errno 2] Unable to synchronously open file (unable to open file: name = 'emotion_model.h5', errno = 2, error message = 'No such file or directory', flags = 0, o_flags = 0)
+2025-12-13 08:22:56,241 - face_emotion_system - INFO - Building emotion recognition CNN model...
+2025-12-13 08:22:56,555 - __main__ - INFO - Starting webcam analytics...
+2025-12-13 08:23:02,744 - __main__ - INFO - Statistics reset
+2025-12-13 08:23:02,744 - __main__ - INFO - Analytics session started
+2025-12-13 08:23:28,189 - __main__ - INFO - Statistics reset
+2025-12-13 12:03:04,528 - __main__ - INFO - FaceEmotionRecognizer initialized
+2025-12-13 12:03:04,603 - __main__ - INFO - [OK] Haar Cascade face detector loaded successfully
+2025-12-13 12:03:04,607 - __main__ - ERROR - Error loading emotion model: [Errno 2] Unable to synchronously open file (unable to open file: name = 'emotion_model.h5', errno = 2, error message = 'No such file or directory', flags = 0, o_flags = 0)
+2025-12-13 12:03:04,607 - __main__ - INFO - Building emotion recognition CNN model...
+2025-12-13 12:03:05,018 - __main__ - INFO - [OK] Model built with 4,972,551 parameters
+2025-12-13 12:03:17,833 - __main__ - INFO - Starting webcam emotion recognition...
+2025-12-13 12:03:27,719 - __main__ - INFO - [OK] Webcam opened successfully
+2025-12-13 12:04:29,029 - __main__ - INFO - [OK] Screenshot saved: ../results/images/screenshot_0000.jpg
+2025-12-13 12:04:34,752 - __main__ - INFO - [OK] Screenshot saved: ../results/images/screenshot_0001.jpg
+2025-12-13 12:04:39,192 - __main__ - INFO - Quitting...
+2025-12-13 12:04:39,602 - __main__ - INFO - [OK] Webcam session ended
+2025-12-13 12:04:39,603 - __main__ - INFO -   Total detections: 88
+2025-12-13 12:05:00,793 - __main__ - INFO - Processing image: D:\SRH\Artificial_Intelligence\AI_Face_Detection\results\images\screenshot_00001.jpg
+2025-12-13 12:05:00,807 - __main__ - ERROR - Could not read image: D:\SRH\Artificial_Intelligence\AI_Face_Detection\results\images\screenshot_00001.jpg
+2025-12-13 12:05:24,170 - __main__ - INFO - Processing image: D:\SRH\Artificial_Intelligence\AI_Face_Detection\results\images\screenshot_0000.jpg
+2025-12-13 12:05:24,406 - __main__ - INFO - Detected 1 face(s)
+2025-12-13 12:05:24,406 - __main__ - INFO -   Face 1: Angry (14.72%)
+2025-12-13 12:05:24,417 - __main__ - INFO - [OK] Output saved to: D:\SRH\Artificial_Intelligence\AI_Face_Detection\results\images\screenshot_0000_output.jpg
+2025-12-13 12:05:44,452 - __main__ - INFO - Application terminated by user
+2025-12-13 12:08:22,783 - __main__ - INFO - FaceEmotionRecognizer initialized
+2025-12-13 12:08:22,856 - __main__ - INFO - [OK] Haar Cascade face detector loaded successfully
+2025-12-13 12:08:22,859 - __main__ - ERROR - Error loading emotion model: [Errno 2] Unable to synchronously open file (unable to open file: name = 'emotion_model.h5', errno = 2, error message = 'No such file or directory', flags = 0, o_flags = 0)
+2025-12-13 12:08:22,860 - __main__ - INFO - Building emotion recognition CNN model...
+2025-12-13 12:08:23,262 - __main__ - INFO - [OK] Model built with 4,972,551 parameters
+2025-12-13 12:08:51,480 - __main__ - INFO - Starting webcam emotion recognition...
+2025-12-13 12:09:01,302 - __main__ - INFO - [OK] Webcam opened successfully
+2025-12-13 12:09:20,869 - __main__ - INFO - [OK] Screenshot saved: ../results/images/screenshot_0000.jpg
+2025-12-13 12:09:26,801 - __main__ - INFO - [OK] Recording started: ../results/videos/recording_20251213_120926.avi
+2025-12-13 12:09:43,271 - __main__ - INFO - [OK] Recording stopped
+2025-12-13 12:09:47,242 - __main__ - INFO - Quitting...
+2025-12-13 12:09:47,634 - __main__ - INFO - [OK] Webcam session ended
+2025-12-13 12:09:47,636 - __main__ - INFO -   Total detections: 216
+2025-12-13 12:10:09,298 - __main__ - INFO - Processing video: D:\SRH\Artificial_Intelligence\AI_Face_Detection\results\videos\recording_20251213_120926.avi
+2025-12-13 12:10:09,349 - __main__ - INFO - Video: 640x480 @ 20FPS, 88 frames
+2025-12-13 12:10:24,931 - __main__ - INFO - [OK] Video processing complete
+2025-12-13 12:10:24,932 - __main__ - INFO -   Processed 88/88 frames
+2025-12-13 12:10:24,936 - __main__ - INFO -   Detected 83 faces
+2025-12-13 12:10:24,937 - __main__ - INFO -   Processing time: 15.58s
+2025-12-13 12:10:52,894 - __main__ - INFO - Processing video: D:\SRH\Artificial_Intelligence\AI_Face_Detection\results\videos\recording_20251213_120926.avi
+2025-12-13 12:10:52,900 - __main__ - INFO - Video: 640x480 @ 20FPS, 88 frames
+2025-12-13 12:11:08,441 - __main__ - INFO - [OK] Video processing complete
+2025-12-13 12:11:08,442 - __main__ - INFO -   Processed 88/88 frames
+2025-12-13 12:11:08,444 - __main__ - INFO -   Detected 83 faces
+2025-12-13 12:11:08,446 - __main__ - INFO -   Processing time: 15.52s
+2025-12-13 12:12:22,466 - __main__ - INFO - Starting model training...
+2025-12-13 12:12:22,469 - __main__ - INFO -   Training data: D:\SRH\Artificial_Intelligence\AI_Face_Detection\data\fer2013\train
+2025-12-13 12:12:22,472 - __main__ - INFO -   Validation data: D:\SRH\Artificial_Intelligence\AI_Face_Detection\data\fer2013\test
+2025-12-13 12:12:22,473 - __main__ - INFO -   Epochs: 10
+2025-12-13 12:12:22,474 - __main__ - INFO -   Batch size: 64
+2025-12-13 12:12:24,885 - __main__ - INFO -   Training samples: 22968
+2025-12-13 12:12:24,886 - __main__ - INFO -   Validation samples: 7179
+2025-12-13 12:12:24,887 - __main__ - INFO - Building emotion recognition CNN model...
+2025-12-13 12:12:25,089 - __main__ - INFO - [OK] Model built with 4,972,551 parameters
+2025-12-13 12:12:25,089 - __main__ - INFO - Training started...
+2025-12-13 12:23:34,113 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-12-13 12:23:44,701 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-12-13 12:26:43,181 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-12-13 12:26:54,431 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-12-13 12:30:03,637 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-12-13 12:30:15,262 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-12-13 12:33:21,904 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-12-13 12:33:32,249 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-12-13 12:36:23,226 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-12-13 12:36:33,679 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-12-13 12:36:33,850 - __main__ - INFO - [OK] Training completed!
+2025-12-13 12:36:33,851 - __main__ - INFO -   Best model saved: best_model.h5
+2025-12-13 12:36:33,851 - __main__ - INFO -   Final model saved: final_model.h5
+2025-12-13 12:38:40,889 - __main__ - INFO - Starting webcam emotion recognition...
+2025-12-13 12:38:51,033 - __main__ - INFO - [OK] Webcam opened successfully
+2025-12-13 12:39:08,621 - __main__ - INFO - [OK] Screenshot saved: ../results/images/screenshot_0000.jpg
+2025-12-13 12:39:12,925 - __main__ - INFO - [OK] Screenshot saved: ../results/images/screenshot_0001.jpg
+2025-12-13 12:39:14,346 - __main__ - INFO - [OK] Recording started: ../results/videos/recording_20251213_123914.avi
+2025-12-13 12:39:20,783 - __main__ - INFO - [OK] Recording stopped
+2025-12-13 12:39:21,681 - __main__ - INFO - Quitting...
+2025-12-13 12:39:22,069 - __main__ - INFO - [OK] Webcam session ended
+2025-12-13 12:39:22,075 - __main__ - INFO -   Total detections: 533
+2025-12-13 17:45:13,411 - __main__ - INFO - FaceEmotionRecognizer initialized
+2025-12-13 17:45:13,432 - __main__ - INFO - [OK] Haar Cascade face detector loaded successfully
+2025-12-13 17:45:13,433 - __main__ - ERROR - Error loading emotion model: [Errno 2] Unable to synchronously open file (unable to open file: name = 'emotion_model.h5', errno = 2, error message = 'No such file or directory', flags = 0, o_flags = 0)
+2025-12-13 17:45:13,434 - __main__ - INFO - Building emotion recognition CNN model...
+2025-12-13 17:45:13,603 - __main__ - INFO - [OK] Model built with 4,972,551 parameters
+2025-12-13 17:45:18,890 - __main__ - INFO - Starting webcam emotion recognition...
+2025-12-13 17:45:24,800 - __main__ - INFO - [OK] Webcam opened successfully
+2025-12-13 17:45:34,821 - __main__ - INFO - [OK] Screenshot saved: ../results/images/screenshot_0000.jpg
+2025-12-13 17:45:39,636 - __main__ - INFO - Quitting...
+2025-12-13 17:45:39,999 - __main__ - INFO - [OK] Webcam session ended
+2025-12-13 17:45:39,999 - __main__ - INFO -   Total detections: 126
+2025-12-13 17:45:57,437 - __main__ - INFO - Processing image: D:\SRH\Artificial_Intelligence\AI_Face_Detection\results\images\screenshot_0000.jpg
+2025-12-13 17:45:57,546 - __main__ - INFO - Detected 1 face(s)
+2025-12-13 17:45:57,546 - __main__ - INFO -   Face 1: Neutral (14.93%)
+2025-12-13 17:45:57,550 - __main__ - INFO - [OK] Output saved to: D:\SRH\Artificial_Intelligence\AI_Face_Detection\results\images\screenshot_0000_output.jpg
+2025-12-13 17:46:22,915 - face_emotion_system - INFO - FaceEmotionRecognizer initialized
+2025-12-13 17:46:22,916 - __main__ - INFO - EmotionAnalytics initialized
+2025-12-13 17:46:22,939 - face_emotion_system - INFO - [OK] Haar Cascade face detector loaded successfully
+2025-12-13 17:46:22,940 - face_emotion_system - ERROR - Error loading emotion model: [Errno 2] Unable to synchronously open file (unable to open file: name = 'emotion_model.h5', errno = 2, error message = 'No such file or directory', flags = 0, o_flags = 0)
+2025-12-13 17:46:22,941 - face_emotion_system - INFO - Building emotion recognition CNN model...
+2025-12-13 17:46:23,110 - face_emotion_system - INFO - [OK] Model built with 4,972,551 parameters
+2025-12-13 17:46:23,110 - __main__ - INFO - Starting webcam analytics...
+2025-12-13 17:46:29,115 - __main__ - INFO - Statistics reset
+2025-12-13 17:46:29,116 - __main__ - INFO - Analytics session started
+2025-12-13 17:46:36,460 - __main__ - INFO - Statistics reset
+2025-12-13 17:46:43,880 - __main__ - INFO - ✓ Timeline exported: ..\results\csv\emotion_timeline_20251213_174643.csv
+2025-12-13 17:46:43,882 - __main__ - INFO - ✓ Statistics exported: ..\results\json\emotion_statistics_20251213_174643.json
+2025-12-13 17:46:44,911 - __main__ - INFO - ✓ Report generated: ..\results\images\emotion_report_20251213_174643.png
+2025-12-13 20:38:38,256 - face_emotion_system - INFO - FaceEmotionRecognizer initialized
+2025-12-13 20:38:38,257 - __main__ - INFO - EmotionAnalytics initialized
+2025-12-13 20:38:38,289 - face_emotion_system - INFO - [OK] Haar Cascade face detector loaded successfully
+2025-12-13 20:38:38,291 - face_emotion_system - ERROR - Error loading emotion model: [Errno 2] Unable to synchronously open file (unable to open file: name = 'emotion_model.h5', errno = 2, error message = 'No such file or directory', flags = 0, o_flags = 0)
+2025-12-13 20:38:38,292 - face_emotion_system - INFO - Building emotion recognition CNN model...
+2025-12-13 20:38:38,533 - face_emotion_system - INFO - [OK] Model built with 4,972,551 parameters
+2025-12-13 20:38:38,534 - __main__ - INFO - Starting webcam analytics...
+2025-12-13 20:38:44,606 - __main__ - INFO - Statistics reset
+2025-12-13 20:38:44,606 - __main__ - INFO - Analytics session started
+2025-12-13 20:40:05,434 - __main__ - INFO - ✓ Timeline exported: ..\results\csv\emotion_timeline_20251213_204005.csv
+2025-12-13 20:40:05,437 - __main__ - INFO - ✓ Statistics exported: ..\results\json\emotion_statistics_20251213_204005.json
+2025-12-13 20:40:06,316 - __main__ - INFO - ✓ Report generated: ..\results\images\emotion_report_20251213_204005.png
+2025-12-14 15:38:13,048 - face_emotion_system - INFO - FaceEmotionRecognizer initialized
+2025-12-14 15:38:13,049 - __main__ - INFO - EmotionAnalytics initialized
+2025-12-14 15:38:13,143 - face_emotion_system - INFO - [OK] Haar Cascade face detector loaded successfully
+2025-12-14 15:38:13,147 - face_emotion_system - ERROR - Error loading emotion model: [Errno 2] Unable to synchronously open file (unable to open file: name = 'emotion_model.h5', errno = 2, error message = 'No such file or directory', flags = 0, o_flags = 0)
+2025-12-14 15:38:13,147 - face_emotion_system - INFO - Building emotion recognition CNN model...
+2025-12-14 15:38:13,559 - face_emotion_system - INFO - [OK] Model built with 4,972,551 parameters
+2025-12-14 15:38:13,560 - __main__ - INFO - Starting webcam analytics...
+2025-12-14 15:38:21,463 - __main__ - INFO - Statistics reset
+2025-12-14 15:38:21,463 - __main__ - INFO - Analytics session started
+2025-12-14 15:39:10,605 - __main__ - INFO - Statistics reset
+2025-12-14 15:42:08,779 - __main__ - INFO - FaceEmotionRecognizer initialized
+2025-12-14 15:42:08,827 - __main__ - INFO - [OK] Haar Cascade face detector loaded successfully
+2025-12-14 15:42:08,829 - __main__ - ERROR - Error loading emotion model: [Errno 2] Unable to synchronously open file (unable to open file: name = 'emotion_model.h5', errno = 2, error message = 'No such file or directory', flags = 0, o_flags = 0)
+2025-12-14 15:42:08,829 - __main__ - INFO - Building emotion recognition CNN model...
+2025-12-14 15:42:09,088 - __main__ - INFO - [OK] Model built with 4,972,551 parameters
+2025-12-14 15:42:22,518 - __main__ - INFO - Starting webcam emotion recognition...
+2025-12-14 15:42:30,550 - __main__ - INFO - [OK] Webcam opened successfully
+2025-12-14 15:42:48,704 - __main__ - INFO - PAUSED
+2025-12-14 15:42:52,883 - __main__ - INFO - [OK] Screenshot saved: ../results/images/screenshot_0000.jpg
+2025-12-14 15:42:56,052 - __main__ - INFO - Quitting...
+2025-12-14 15:42:56,428 - __main__ - INFO - [OK] Webcam session ended
+2025-12-14 15:42:56,429 - __main__ - INFO -   Total detections: 106
+2025-12-14 15:43:22,608 - face_emotion_system - INFO - FaceEmotionRecognizer initialized
+2025-12-14 15:43:22,608 - __main__ - INFO - EmotionAnalytics initialized
+2025-12-14 15:43:22,653 - face_emotion_system - INFO - [OK] Haar Cascade face detector loaded successfully
+2025-12-14 15:43:22,655 - face_emotion_system - ERROR - Error loading emotion model: [Errno 2] Unable to synchronously open file (unable to open file: name = 'emotion_model.h5', errno = 2, error message = 'No such file or directory', flags = 0, o_flags = 0)
+2025-12-14 15:43:22,656 - face_emotion_system - INFO - Building emotion recognition CNN model...
+2025-12-14 15:43:22,903 - face_emotion_system - INFO - [OK] Model built with 4,972,551 parameters
+2025-12-14 15:43:22,904 - __main__ - INFO - Starting webcam analytics...
+2025-12-14 15:43:30,717 - __main__ - INFO - Statistics reset
+2025-12-14 15:43:30,718 - __main__ - INFO - Analytics session started
+2025-12-14 15:44:21,011 - __main__ - INFO - ✓ Timeline exported: ..\results\csv\emotion_timeline_20251214_154420.csv
+2025-12-14 15:44:21,014 - __main__ - INFO - ✓ Statistics exported: ..\results\json\emotion_statistics_20251214_154420.json
+2025-12-14 15:44:22,470 - __main__ - INFO - ✓ Report generated: ..\results\images\emotion_report_20251214_154420.png
+2025-12-14 15:50:59,573 - face_emotion_system - INFO - FaceEmotionRecognizer initialized
+2025-12-14 15:50:59,573 - __main__ - INFO - EmotionAnalytics initialized
+2025-12-14 15:50:59,611 - face_emotion_system - INFO - [OK] Haar Cascade face detector loaded successfully
+2025-12-14 15:50:59,612 - face_emotion_system - ERROR - Error loading emotion model: [Errno 2] Unable to synchronously open file (unable to open file: name = 'emotion_model.h5', errno = 2, error message = 'No such file or directory', flags = 0, o_flags = 0)
+2025-12-14 15:50:59,613 - face_emotion_system - INFO - Building emotion recognition CNN model...
+2025-12-14 15:50:59,854 - face_emotion_system - INFO - [OK] Model built with 4,972,551 parameters
+2025-12-14 15:50:59,855 - __main__ - INFO - Starting webcam analytics...
+2025-12-14 15:51:07,700 - __main__ - INFO - Statistics reset
+2025-12-14 15:51:07,700 - __main__ - INFO - Analytics session started
+2025-12-14 15:51:14,048 - __main__ - INFO - ✓ Timeline exported: ..\results\csv\emotion_timeline_20251214_155114.csv
+2025-12-14 15:51:14,051 - __main__ - INFO - ✓ Statistics exported: ..\results\json\emotion_statistics_20251214_155114.json
+2025-12-14 15:51:15,454 - __main__ - INFO - ✓ Report generated: ..\results\images\emotion_report_20251214_155114.png
+2025-12-14 15:51:30,408 - __main__ - INFO - FaceEmotionRecognizer initialized
+2025-12-14 15:51:30,447 - __main__ - INFO - [OK] Haar Cascade face detector loaded successfully
+2025-12-14 15:51:30,449 - __main__ - ERROR - Error loading emotion model: [Errno 2] Unable to synchronously open file (unable to open file: name = 'emotion_model.h5', errno = 2, error message = 'No such file or directory', flags = 0, o_flags = 0)
+2025-12-14 15:51:30,449 - __main__ - INFO - Building emotion recognition CNN model...
+2025-12-14 15:51:30,707 - __main__ - INFO - [OK] Model built with 4,972,551 parameters
+2025-12-14 15:52:15,478 - __main__ - INFO - Starting model training...
+2025-12-14 15:52:15,478 - __main__ - INFO -   Training data: D:\SRH\Artificial_Intelligence\Face_Detection\data\train
+2025-12-14 15:52:15,479 - __main__ - INFO -   Validation data: D:\SRH\Artificial_Intelligence\Face_Detection\data\test
+2025-12-14 15:52:15,479 - __main__ - INFO -   Epochs: 2
+2025-12-14 15:52:15,479 - __main__ - INFO -   Batch size: 64
+2025-12-14 15:52:15,485 - __main__ - ERROR - Unexpected error: [WinError 3] The system cannot find the path specified: 'D:\\SRH\\Artificial_Intelligence\\Face_Detection\\data\\train'
+Traceback (most recent call last):
+  File "D:\SRH\Artificial_Intelligence\AI_Face_Detection\notebook\face_emotion_system.py", line 962, in <module>
+    main()
+  File "D:\SRH\Artificial_Intelligence\AI_Face_Detection\notebook\face_emotion_system.py", line 950, in main
+    recognizer.train_emotion_model(train_path, val_path, epochs=epochs)
+  File "D:\SRH\Artificial_Intelligence\AI_Face_Detection\notebook\face_emotion_system.py", line 813, in train_emotion_model
+    train_generator = train_datagen.flow_from_directory(
+  File "C:\Users\GarimaAgrawal\AppData\Local\Programs\Python\Python310\lib\site-packages\keras\src\legacy\preprocessing\image.py", line 1136, in flow_from_directory
+    return DirectoryIterator(
+  File "C:\Users\GarimaAgrawal\AppData\Local\Programs\Python\Python310\lib\site-packages\keras\src\legacy\preprocessing\image.py", line 456, in __init__
+    for subdir in sorted(os.listdir(directory)):
+FileNotFoundError: [WinError 3] The system cannot find the path specified: 'D:\\SRH\\Artificial_Intelligence\\Face_Detection\\data\\train'
+2025-12-14 15:52:59,884 - __main__ - INFO - FaceEmotionRecognizer initialized
+2025-12-14 15:52:59,921 - __main__ - INFO - [OK] Haar Cascade face detector loaded successfully
+2025-12-14 15:52:59,923 - __main__ - ERROR - Error loading emotion model: [Errno 2] Unable to synchronously open file (unable to open file: name = 'emotion_model.h5', errno = 2, error message = 'No such file or directory', flags = 0, o_flags = 0)
+2025-12-14 15:52:59,924 - __main__ - INFO - Building emotion recognition CNN model...
+2025-12-14 15:53:00,177 - __main__ - INFO - [OK] Model built with 4,972,551 parameters
+2025-12-14 15:53:52,108 - __main__ - INFO - Starting model training...
+2025-12-14 15:53:52,109 - __main__ - INFO -   Training data: D:\SRH\Artificial_Intelligence\AI_Face_Detection\data\fer2013\train
+2025-12-14 15:53:52,109 - __main__ - INFO -   Validation data: D:\SRH\Artificial_Intelligence\AI_Face_Detection\data\fer2013\test
+2025-12-14 15:53:52,109 - __main__ - INFO -   Epochs: 5
+2025-12-14 15:53:52,110 - __main__ - INFO -   Batch size: 64
+2025-12-14 15:53:53,839 - __main__ - INFO -   Training samples: 22968
+2025-12-14 15:53:53,840 - __main__ - INFO -   Validation samples: 7179
+2025-12-14 15:53:53,840 - __main__ - INFO - Building emotion recognition CNN model...
+2025-12-14 15:53:53,999 - __main__ - INFO - [OK] Model built with 4,972,551 parameters
+2025-12-14 15:53:54,000 - __main__ - INFO - Training started...
+2025-12-14 16:02:12,957 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-12-14 16:05:16,303 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-12-14 16:08:18,036 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-12-14 16:08:18,233 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-12-14 16:08:18,373 - __main__ - INFO - [OK] Training completed!
+2025-12-14 16:08:18,374 - __main__ - INFO -   Best model saved: best_model.h5
+2025-12-14 16:08:18,374 - __main__ - INFO -   Final model saved: final_model.h5
+2025-12-14 16:15:56,127 - __main__ - INFO - Processing image: D:\SRH\Artificial_Intelligence\AI_Face_Detection\results\images\screenshot_00001.jpg
+2025-12-14 16:15:56,152 - __main__ - ERROR - Could not read image: D:\SRH\Artificial_Intelligence\AI_Face_Detection\results\images\screenshot_00001.jpg
+2025-12-14 16:16:29,240 - __main__ - INFO - Starting webcam emotion recognition...
+2025-12-14 16:16:37,328 - __main__ - INFO - [OK] Webcam opened successfully
+2025-12-14 16:16:46,285 - __main__ - INFO - [OK] Recording started: ../results/videos/recording_20251214_161646.avi
+2025-12-14 16:16:56,791 - __main__ - INFO - [OK] Recording stopped
+2025-12-14 16:16:58,434 - __main__ - INFO - [OK] Screenshot saved: ../results/images/screenshot_0000.jpg
+2025-12-14 16:17:00,794 - __main__ - INFO - Quitting...
+2025-12-14 16:17:01,153 - __main__ - INFO - [OK] Webcam session ended
+2025-12-14 16:17:01,154 - __main__ - INFO -   Total detections: 148
+2025-12-14 16:17:27,208 - __main__ - INFO - Processing video: D:\SRH\Artificial_Intelligence\AI_Face_Detection\results\videos\recording_20251214_161646.avi
+2025-12-14 16:17:27,246 - __main__ - INFO - Video: 640x480 @ 20FPS, 72 frames
+2025-12-14 16:17:38,431 - __main__ - INFO - [OK] Video processing complete
+2025-12-14 16:17:38,432 - __main__ - INFO -   Processed 72/72 frames
+2025-12-14 16:17:38,432 - __main__ - INFO -   Detected 72 faces
+2025-12-14 16:17:38,432 - __main__ - INFO -   Processing time: 11.16s
+2025-12-14 16:44:29,310 - __main__ - INFO - FaceEmotionRecognizer initialized
+2025-12-14 16:44:29,349 - __main__ - INFO - [OK] Haar Cascade face detector loaded successfully
+2025-12-14 16:44:29,351 - __main__ - ERROR - Error loading emotion model: [Errno 2] Unable to synchronously open file (unable to open file: name = 'emotion_model.h5', errno = 2, error message = 'No such file or directory', flags = 0, o_flags = 0)
+2025-12-14 16:44:29,351 - __main__ - INFO - Building emotion recognition CNN model...
+2025-12-14 16:44:29,605 - __main__ - INFO - [OK] Model built with 4,972,551 parameters
+2025-12-14 16:44:50,970 - __main__ - INFO - Processing image: D:\SRH\Artificial_Intelligence\AI_Face_Detection\results\images\screenshot_0000.jpg
+2025-12-14 16:44:51,956 - __main__ - INFO - Detected 1 face(s)
+2025-12-14 16:44:51,957 - __main__ - INFO -   Face 1: Angry (15.33%)
+2025-12-14 16:44:51,960 - __main__ - INFO - [OK] Output saved to: D:\SRH\Artificial_Intelligence\AI_Face_Detection\results\images\screenshot_0000_output.jpg
+2025-12-14 16:45:22,191 - __main__ - INFO - Processing image: D:\SRH\Artificial_Intelligence\AI_Face_Detection\results\images\screenshot_0000.jpg
+2025-12-14 16:45:22,355 - __main__ - INFO - Detected 1 face(s)
+2025-12-14 16:45:22,356 - __main__ - INFO -   Face 1: Angry (15.33%)
+2025-12-14 16:45:22,359 - __main__ - INFO - [OK] Output saved to: D:\SRH\Artificial_Intelligence\AI_Face_Detection\results\images\screenshot_0000_output.jpg
+2025-12-14 16:46:25,798 - __main__ - INFO - Processing image: D:\SRH\Artificial_Intelligence\AI_Face_Detection\results\images\emotion_screenshot_0.jpg
+2025-12-14 16:46:25,972 - __main__ - INFO - Detected 1 face(s)
+2025-12-14 16:46:25,973 - __main__ - INFO -   Face 1: Angry (15.11%)
+2025-12-14 16:46:25,976 - __main__ - INFO - [OK] Output saved to: D:\SRH\Artificial_Intelligence\AI_Face_Detection\results\images\emotion_screenshot_0_output.jpg
+2025-12-14 16:48:04,264 - __main__ - INFO - Processing video: D:\SRH\Artificial_Intelligence\AI_Face_Detection\results\videos\recording_20251214_161646.avi
+2025-12-14 16:48:04,270 - __main__ - INFO - Video: 640x480 @ 20FPS, 72 frames
+2025-12-14 16:48:15,818 - __main__ - INFO - [OK] Video processing complete
+2025-12-14 16:48:15,819 - __main__ - INFO -   Processed 72/72 frames
+2025-12-14 16:48:15,819 - __main__ - INFO -   Detected 72 faces
+2025-12-14 16:48:15,819 - __main__ - INFO -   Processing time: 11.55s
+2025-12-15 07:54:10,477 - __main__ - INFO - FaceEmotionRecognizer initialized
+2025-12-15 07:54:10,582 - __main__ - INFO - [OK] Haar Cascade face detector loaded successfully
+2025-12-15 07:54:10,586 - __main__ - ERROR - Error loading emotion model: [Errno 2] Unable to synchronously open file (unable to open file: name = 'emotion_model.h5', errno = 2, error message = 'No such file or directory', flags = 0, o_flags = 0)
+2025-12-15 07:54:10,586 - __main__ - INFO - Building emotion recognition CNN model...
+2025-12-15 07:54:11,019 - __main__ - INFO - [OK] Model built with 4,972,551 parameters
+2025-12-15 07:54:23,433 - __main__ - INFO - Application terminated by user
+2025-12-15 07:54:42,209 - __main__ - INFO - FaceEmotionRecognizer initialized
+2025-12-15 07:54:42,262 - __main__ - INFO - [OK] Haar Cascade face detector loaded successfully
+2025-12-15 07:54:42,263 - __main__ - ERROR - Error loading emotion model: [Errno 2] Unable to synchronously open file (unable to open file: name = 'emotion_model.h5', errno = 2, error message = 'No such file or directory', flags = 0, o_flags = 0)
+2025-12-15 07:54:42,264 - __main__ - INFO - Building emotion recognition CNN model...
+2025-12-15 07:54:42,583 - __main__ - INFO - [OK] Model built with 4,972,551 parameters
+2025-12-15 07:55:05,591 - __main__ - INFO - Application terminated by user
+2025-12-15 19:04:48,674 - __main__ - INFO - FaceEmotionRecognizer initialized
+2025-12-15 19:04:48,776 - __main__ - INFO - [OK] Haar Cascade face detector loaded successfully
+2025-12-15 19:04:48,779 - __main__ - ERROR - Error loading emotion model: [Errno 2] Unable to synchronously open file (unable to open file: name = 'emotion_model.h5', errno = 2, error message = 'No such file or directory', flags = 0, o_flags = 0)
+2025-12-15 19:04:48,780 - __main__ - INFO - Building emotion recognition CNN model...
+2025-12-15 19:04:49,203 - __main__ - INFO - [OK] Model built with 4,972,551 parameters
+2025-12-15 19:04:52,095 - __main__ - INFO - Starting webcam emotion recognition...
+2025-12-15 19:05:02,425 - __main__ - INFO - [OK] Webcam opened successfully
+2025-12-15 19:05:58,214 - __main__ - INFO - Quitting...
+2025-12-15 19:05:58,594 - __main__ - INFO - [OK] Webcam session ended
+2025-12-15 19:05:58,597 - __main__ - INFO -   Total detections: 222
+2025-12-16 10:20:03,734 - face_emotion_system - INFO - FaceEmotionRecognizer initialized
+2025-12-16 10:20:03,734 - __main__ - INFO - EmotionAnalytics initialized
+2025-12-16 10:20:03,790 - face_emotion_system - INFO - [OK] Haar Cascade face detector loaded successfully
+2025-12-16 10:20:03,792 - face_emotion_system - ERROR - Error loading emotion model: [Errno 2] Unable to synchronously open file (unable to open file: name = 'emotion_model.h5', errno = 2, error message = 'No such file or directory', flags = 0, o_flags = 0)
+2025-12-16 10:20:03,793 - face_emotion_system - INFO - Building emotion recognition CNN model...
+2025-12-16 10:20:04,098 - face_emotion_system - INFO - [OK] Model built with 4,972,551 parameters
+2025-12-16 10:20:04,099 - __main__ - INFO - Starting webcam analytics...
+2025-12-16 10:20:13,795 - __main__ - INFO - Statistics reset
+2025-12-16 10:20:13,796 - __main__ - INFO - Analytics session started
+2025-12-16 10:20:33,039 - __main__ - INFO - ✓ Timeline exported: ..\results\csv\emotion_timeline_20251216_102033.csv
+2025-12-16 10:20:33,044 - __main__ - INFO - ✓ Statistics exported: ..\results\json\emotion_statistics_20251216_102033.json
+2025-12-16 10:20:34,908 - __main__ - INFO - ✓ Report generated: ..\results\images\emotion_report_20251216_102033.png
+2025-12-18 08:04:51,986 - __main__ - INFO - FaceEmotionRecognizer initialized
+2025-12-18 08:04:52,039 - __main__ - INFO - [OK] Haar Cascade face detector loaded successfully
+2025-12-18 08:04:52,041 - __main__ - ERROR - Error loading emotion model: [Errno 2] Unable to synchronously open file (unable to open file: name = 'emotion_model.h5', errno = 2, error message = 'No such file or directory', flags = 0, o_flags = 0)
+2025-12-18 08:04:52,042 - __main__ - INFO - Building emotion recognition CNN model...
+2025-12-18 08:04:52,296 - __main__ - INFO - [OK] Model built with 4,972,551 parameters
+2025-12-18 08:05:13,210 - __main__ - INFO - Starting model training...
+2025-12-18 08:05:13,210 - __main__ - INFO -   Training data: D:\SRH\Artificial_Intelligence\AI_Face_Detection\data\fer2013\train
+2025-12-18 08:05:13,210 - __main__ - INFO -   Validation data: D:\SRH\Artificial_Intelligence\AI_Face_Detection\data\fer2013\test
+2025-12-18 08:05:13,210 - __main__ - INFO -   Epochs: 100
+2025-12-18 08:05:13,210 - __main__ - INFO -   Batch size: 64
+2025-12-18 08:05:14,279 - __main__ - INFO -   Training samples: 22968
+2025-12-18 08:05:14,279 - __main__ - INFO -   Validation samples: 7179
+2025-12-18 08:05:14,280 - __main__ - INFO - Building emotion recognition CNN model...
+2025-12-18 08:05:14,386 - __main__ - INFO - [OK] Model built with 4,972,551 parameters
+2025-12-18 08:05:14,388 - __main__ - INFO - Training started...
+2025-12-18 08:14:12,961 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-12-18 08:18:16,570 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-12-18 08:18:29,294 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-12-18 08:21:48,818 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-12-18 08:26:58,382 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-12-18 08:27:10,340 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-12-18 08:31:01,022 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-12-18 08:31:13,991 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-12-18 08:44:17,273 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-12-18 08:44:28,769 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-12-18 08:49:46,431 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-12-18 08:53:04,877 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-12-18 08:53:15,922 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-12-18 08:59:40,888 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-12-18 08:59:52,063 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-12-18 09:03:17,005 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-12-18 09:03:29,173 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-12-18 09:13:11,750 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-12-18 09:16:37,335 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-12-18 09:16:48,100 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-12-18 09:20:08,018 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-12-18 09:20:20,982 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-12-18 09:29:39,010 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-12-18 09:29:48,541 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-12-18 09:35:26,260 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-12-18 09:43:36,036 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-12-18 09:43:36,152 - __main__ - INFO - [OK] Training completed!
+2025-12-18 09:43:36,153 - __main__ - INFO -   Best model saved: best_model.h5
+2025-12-18 09:43:36,154 - __main__ - INFO -   Final model saved: final_model.h5
+2025-12-18 11:54:31,370 - __main__ - INFO - FaceEmotionRecognizer initialized
+2025-12-18 11:54:31,479 - __main__ - INFO - [OK] Haar Cascade face detector loaded successfully
+2025-12-18 11:54:31,483 - __main__ - ERROR - Error loading emotion model: [Errno 2] Unable to synchronously open file (unable to open file: name = 'emotion_model.h5', errno = 2, error message = 'No such file or directory', flags = 0, o_flags = 0)
+2025-12-18 11:54:31,484 - __main__ - INFO - Building emotion recognition CNN model...
+2025-12-18 11:54:31,913 - __main__ - INFO - [OK] Model built with 4,972,551 parameters

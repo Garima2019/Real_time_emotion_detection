@@ -1,0 +1,52 @@
+{
+    "session": {
+        "start_time": "2025-12-13T20:38:44.606206",
+        "duration_seconds": 80.45219540596008,
+        "duration_formatted": "1m 20s"
+    },
+    "frames": {
+        "total": 1466,
+        "with_faces": 360,
+        "detection_rate": 24.556616643929058
+    },
+    "faces": {
+        "total_detected": 380,
+        "average_per_frame": 1.0555555555555556,
+        "unique_positions": 24
+    },
+    "emotions": {
+        "total_detections": 380,
+        "dominant": "Neutral",
+        "distribution": {
+            "Angry": 7.368421052631578,
+            "Disgust": 0.0,
+            "Fear": 0.0,
+            "Happy": 44.473684210526315,
+            "Sad": 0.0,
+            "Surprise": 0.0,
+            "Neutral": 48.1578947368421
+        },
+        "counts": {
+            "Happy": 169,
+            "Neutral": 183,
+            "Angry": 28
+        },
+        "changes": 108
+    },
+    "confidence": {
+        "average": 0.14802446110468162,
+        "per_emotion": {
+            "Angry": 0.14864857175520488,
+            "Disgust": 0.0,
+            "Fear": 0.0,
+            "Happy": 0.14843285656892335,
+            "Sad": 0.0,
+            "Surprise": 0.0,
+            "Neutral": 0.1475518166693182
+        }
+    },
+    "recent_trend": {
+        "Happy": 24,
+        "Neutral": 63
+    }
+}
