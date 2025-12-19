@@ -305,6 +305,10 @@ Just solid engineering.
 
 📧 Contact : For questions or feedback, please open an issue on GitHub or contact the maintainer.
 
-## © License
+## © License / Data Usage
 
-This project is licensed under the MIT License - see the LICENSE file for details.
+This project was developed as part of an academic exercise using the FER-2013 dataset, originally published on Kaggle.
+
+The dataset is used strictly for research and educational purposes. All rights and licenses related to the FER-2013 dataset remain with their respective owners.
+
+This repository contains only code and derived results. It does not redistribute the original dataset.
